@@ -27,11 +27,13 @@ form = """
     <body>
         
         <form method="POST">
-        <label for="rot">Rotate by:</label>
-            <input      type="number" name="rot" value="{1}"/>
-            <textarea   type="text" name="text">{0}</textarea>
-            <br>
-            <input type="submit" value="Encrypt!"/>
+            <label> 
+            Rotate by:<input type = "text"  name = "rot" value = "0" />
+            </label>                
+            <label>
+                <textarea name  = "text">{0}</textarea>
+                <input type = "submit" name= "Submit Encryption" />
+            </label>
         </form>
         
     </body>
